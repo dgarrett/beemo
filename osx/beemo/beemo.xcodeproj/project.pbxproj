@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C00218815D366AC009D2620 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C00218715D366AC009D2620 /* Cocoa.framework */; };
+		2C00219215D366AC009D2620 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C00219015D366AC009D2620 /* InfoPlist.strings */; };
+		2C00219415D366AC009D2620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C00219315D366AC009D2620 /* main.m */; };
+		2C00219815D366AC009D2620 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2C00219615D366AC009D2620 /* Credits.rtf */; };
+		2C00219B15D366AC009D2620 /* DKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C00219A15D366AC009D2620 /* DKGAppDelegate.m */; };
+		2C00219E15D366AC009D2620 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C00219C15D366AC009D2620 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C00218315D366AC009D2620 /* beemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C00218715D366AC009D2620 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2C00218A15D366AC009D2620 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2C00218B15D366AC009D2620 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2C00218C15D366AC009D2620 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C00218F15D366AC009D2620 /* beemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "beemo-Info.plist"; sourceTree = "<group>"; };
+		2C00219115D366AC009D2620 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C00219315D366AC009D2620 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C00219515D366AC009D2620 /* beemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "beemo-Prefix.pch"; sourceTree = "<group>"; };
+		2C00219715D366AC009D2620 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2C00219915D366AC009D2620 /* DKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKGAppDelegate.h; sourceTree = "<group>"; };
+		2C00219A15D366AC009D2620 /* DKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKGAppDelegate.m; sourceTree = "<group>"; };
+		2C00219D15D366AC009D2620 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C00218015D366AC009D2620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C00218815D366AC009D2620 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C00217815D366AC009D2620 = {
+			isa = PBXGroup;
+			children = (
+				2C00218D15D366AC009D2620 /* beemo */,
+				2C00218615D366AC009D2620 /* Frameworks */,
+				2C00218415D366AC009D2620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C00218415D366AC009D2620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C00218315D366AC009D2620 /* beemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C00218615D366AC009D2620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C00218715D366AC009D2620 /* Cocoa.framework */,
+				2C00218915D366AC009D2620 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C00218915D366AC009D2620 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C00218A15D366AC009D2620 /* AppKit.framework */,
+				2C00218B15D366AC009D2620 /* CoreData.framework */,
+				2C00218C15D366AC009D2620 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2C00218D15D366AC009D2620 /* beemo */ = {
+			isa = PBXGroup;
+			children = (
+				2C00219915D366AC009D2620 /* DKGAppDelegate.h */,
+				2C00219A15D366AC009D2620 /* DKGAppDelegate.m */,
+				2C00219C15D366AC009D2620 /* MainMenu.xib */,
+				2C00218E15D366AC009D2620 /* Supporting Files */,
+			);
+			path = beemo;
+			sourceTree = "<group>";
+		};
+		2C00218E15D366AC009D2620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C00218F15D366AC009D2620 /* beemo-Info.plist */,
+				2C00219015D366AC009D2620 /* InfoPlist.strings */,
+				2C00219315D366AC009D2620 /* main.m */,
+				2C00219515D366AC009D2620 /* beemo-Prefix.pch */,
+				2C00219615D366AC009D2620 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C00218215D366AC009D2620 /* beemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0021A115D366AC009D2620 /* Build configuration list for PBXNativeTarget "beemo" */;
+			buildPhases = (
+				2C00217F15D366AC009D2620 /* Sources */,
+				2C00218015D366AC009D2620 /* Frameworks */,
+				2C00218115D366AC009D2620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beemo;
+			productName = beemo;
+			productReference = 2C00218315D366AC009D2620 /* beemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C00217A15D366AC009D2620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DKG;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dylan Garrett";
+			};
+			buildConfigurationList = 2C00217D15D366AC009D2620 /* Build configuration list for PBXProject "beemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C00217815D366AC009D2620;
+			productRefGroup = 2C00218415D366AC009D2620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C00218215D366AC009D2620 /* beemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C00218115D366AC009D2620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C00219215D366AC009D2620 /* InfoPlist.strings in Resources */,
+				2C00219815D366AC009D2620 /* Credits.rtf in Resources */,
+				2C00219E15D366AC009D2620 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C00217F15D366AC009D2620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C00219415D366AC009D2620 /* main.m in Sources */,
+				2C00219B15D366AC009D2620 /* DKGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C00219015D366AC009D2620 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C00219115D366AC009D2620 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C00219615D366AC009D2620 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C00219715D366AC009D2620 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2C00219C15D366AC009D2620 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C00219D15D366AC009D2620 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C00219F15D366AC009D2620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C0021A015D366AC009D2620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C0021A215D366AC009D2620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beemo/beemo-Prefix.pch";
+				INFOPLIST_FILE = "beemo/beemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C0021A315D366AC009D2620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beemo/beemo-Prefix.pch";
+				INFOPLIST_FILE = "beemo/beemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C00217D15D366AC009D2620 /* Build configuration list for PBXProject "beemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C00219F15D366AC009D2620 /* Debug */,
+				2C0021A015D366AC009D2620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C0021A115D366AC009D2620 /* Build configuration list for PBXNativeTarget "beemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0021A215D366AC009D2620 /* Debug */,
+				2C0021A315D366AC009D2620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C00217A15D366AC009D2620 /* Project object */;
+}
